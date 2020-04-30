@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.rao.study</groupId>
+    <artifactId>study-impala</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <dependencies>
+        <!-- https://www.cloudera.com/downloads/connectors/impala/jdbc/2-6-12.html
+        需求手动下载该包,并上传到自己的私服中 -->
+        <dependency>
+            <groupId>com.cloudera</groupId>
+            <artifactId>ImpalaJDBC41</artifactId>
+            <version>2.6.4.1005</version>
+        </dependency>
+    </dependencies>
+
+</project>
